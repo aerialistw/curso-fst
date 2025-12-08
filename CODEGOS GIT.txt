@@ -1,0 +1,9 @@
+git status - ver status pasta git
+
+git pull - atualizar repositório (fazer semrpe)
+
+git add . - adiciona mudanças no código
+
+git commit -m "mensagem" - descrição do que foi feito
+
+git push - manda as mudanças para o GitHub
