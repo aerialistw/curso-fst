@@ -1,7 +1,0 @@
-Página sobre receita culinária de pizza caseira
-- Receita de pizza de calabresa
-- Divisão de conteúdo em <header>, <main> e <footer>
-- Adicionar uma foto da pizza 
-- Deve contar imagens
-- Lista de ingredientes e modo de preparo
-- 
