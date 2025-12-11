@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+
+<body>
+    <h1><strong>Entre em contato</strong></h1>
+    <ul type="square">
+        <li>Telefone: (00)1234-5678</li>
+        <li>Email: email@email.com</li>
+    </ul>
+</body>
+<form action="mailto:axionexu12@gmail.com" method="post" enctype="text/plain">
+    <label for="Nome" id="nome">Nome completo:</label>
+    <input type="text" name="nome"> <br />
+    <br />
+    <label for="Gênero">Escolha seu gênero:</label>
+    <select name="Gênero" id="gênero">
+        <option value="Masculino">Masculino</option>
+        <option value="Feminino">Feminino</option>
+        <option value="Prefiro não dizer">Prefiro não dizer</option>
+    </select>
+    <br /> <br />
+    <label for="endereço">Cidade onde mora:</label>
+    <input type="text" name="cidade"><br>
+    <br />
+    <label for="cor-gato">Escolha a cor do gato que quer adotar:</label><br />
+    <input type="checkbox" name="laranja"> <label for="laranja">Laranja</label> <br />
+    <input type="checkbox" name="manchado"> <label for="manchado">Manchadinho</label> <br />
+    <input type="checkbox" name="rajado"> <label for="rajadinho">Rajadinho</label> <br />
+    <br />
+    <label for="Mensagem">Deixe aqui comentários sobre os gatos:</label><br />
+    <textarea cols="50" rows="5" name="Sua Mensagem" id="mensagem"></textarea> <br />
+    <br />
+    <label for="">Clique para adotar um gato logo:</label><br />
+    <input type="submit">
+
+</form>
+
+</html>
